@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="weather.css"/>
+    <script src="weather.js"></script>
+    
+  </head>
+
+  <body style="background-color:#FFFFFF">
+  
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="main-title">Free Code Camp</div>
+          <div class="sub-title">Local Weather</div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="temperature">
+            <span id="icon"></span>
+            <span id="tempy"></span>
+            <span id="tempy2"></span>
+            <button id = "units" class = "btn btn-primary fc">F/C</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-2 col-md-offset-3">
+          <div class="weather"><span id = "loc" class="hope"></span></div>
+        </div>
+        <div id="description" class="col-md-2">
+          <div class="weather"><span id = "desc" class="hope"></span></div>
+        </div>
+        <div class="col-md-2">
+          <div class="weather"><span id = "whoosh" class="hope"></span></div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <p id="debug"></p>
+      </div>
+      
+      
+    </div>
+    
+  </body>
+  
+</html>
