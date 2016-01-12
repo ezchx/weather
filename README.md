@@ -6,4 +6,3 @@ Reads the user's location and combines this with the current weather conditions 
 
 Primarily JavaScript with HTML and CSS.
 
-The live version can be found at http://ezchx.com/weather/weather.html
